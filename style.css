@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #0076ec, #42a1ff);
+}
+
+.container {
+    width: 80vw;
+    background-color: #ffffff;
+    padding: 3em 1.8em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.6em;
+    box-shadow: 0 0.6em 2.5em rgba(0, 7, 70, 0.2);
+    text-align: center; /* Center align the text */
+}
+
+#ip_details {
+    font-size: 1.75em;
+    text-align: center;
+    margin: 1em 0 1.7em 0;
+    color: #021d38;
+    font-weight: 700;
+}
+
+.container button {
+    display: block;
+    margin: auto;
+    background-color: #42a1ff;
+    color: #ffffff;
+    border: none;
+    font-size: 1.25em;
+    padding: 1em 2.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.container .para {
+    color: #13314f;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center align the text */
+}
